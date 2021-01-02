@@ -26,5 +26,19 @@
       "byproducts": [ "withered" ],
       "grow": "47 days"
     }
+  },
+  {
+    "id": "rc_seed_tinder",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "tinder seeds" },
+    "description": "Some tinder seeds.",
+    "charges": 4,
+    "seed_data": {
+      "plant_name": "tinder",
+      "fruit": "tinder",
+      "byproducts": [ "withered" ],
+      "grow": "30 days"
+    }
   }
 ]
