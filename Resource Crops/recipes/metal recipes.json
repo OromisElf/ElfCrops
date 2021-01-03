@@ -1,7 +1,7 @@
 [
   {
     "type": "recipe",
-    "result": "rc_seed_mat",
+    "result": "rc_seed_metalsheet",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -9,92 +9,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
-      }
-    },
-    "difficulty": 3,
-    "time": "20 m",
-    "autolearn": true,
-    "activity_level": "NO_EXERCISE",
-    "//": "\"qualities\": \[ \{ \"id\": \"CONCENTRATE\", \"level\": 1, \"amount\": 1} ],",
-    "components": [
-      [
-        [ "seed_blackberries", 4 ],
-        [ "seed_blueberries", 4 ],
-        [ "seed_cranberries", 4 ],
-        [ "seed_huckleberries", 4 ],
-        [ "seed_mulberries", 4 ],
-        [ "seed_elderberries", 4 ],
-        [ "seed_raspberries", 4 ],
-        [ "seed_strawberries", 4 ],
-        [ "seed_grapes", 4 ],
-        [ "seed_rose", 4 ],
-        [ "seed_tobacco", 4 ],
-        [ "seed_barley", 4 ],
-        [ "seed_sugar_beet", 4 ],
-        [ "seed_lettuce", 4 ],
-        [ "seed_cabbage", 4 ],
-        [ "seed_tomato", 4 ],
-        [ "seed_broccoli", 4 ],
-        [ "seed_zucchini", 4 ],
-        [ "seed_onion", 4 ],
-        [ "seed_garlic", 4 ],
-        [ "seed_cattail", 4 ],
-        [ "seed_dahlia", 4 ],
-        [ "seed_salsify_raw", 4 ],
-        [ "seed_chicory", 4 ],
-        [ "seed_wildcarrot", 4 ],
-        [ "seed_flower", 4 ],
-        [ "seed_cactus", 4 ],
-        [ "seed_carrot", 4 ],
-        [ "seed_corn", 4 ],
-        [ "seed_chili_pepper", 4 ],
-        [ "seed_cucumber", 4 ],
-        [ "seed_weed", 4 ],
-        [ "seed_beans", 4 ],
-        [ "soybean_seed", 4 ],
-        [ "seed_lentils", 4 ],
-        [ "seed_thyme", 4 ],
-        [ "seed_canola", 4 ],
-        [ "seed_pumpkin", 4 ],
-        [ "seed_sunflower", 4 ],
-        [ "seed_dogbane", 4 ],
-        [ "seed_bee_balm", 4 ],
-        [ "seed_mugwort", 4 ],
-        [ "seed_buckwheat", 4 ],
-        [ "seed_wild_herbs", 4 ],
-        [ "seed_veggy_wild", 4 ],
-        [ "seed_raw_dandelion", 4 ],
-        [ "seed_raw_burdock", 4 ],
-        [ "seed_rhubarb", 4 ],
-        [ "seed_mushroom", 4 ],
-        [ "datura_seed", 4 ],
-        [ "seed_celery", 4 ],
-        [ "seed_oats", 4 ],
-        [ "seed_wheat", 4 ],
-        [ "seed_chamomile", 4 ],
-        [ "seed_spurge", 4 ],
-        [ "seed_popcorn", 4 ],
-        [ "seed_horseradish", 4 ],
-        [ "seed_mustard", 4 ],
-        [ "seed_bell_pepper", 4 ]
-      ],
-      [
-        [ "mutagen", 1]
-      ]
-    ]
-  },
-  {
-    "type": "recipe",
-    "result": "rc_seed_bsting",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_SEEDS",
-    "skill_used": "fabrication",
-    "skills_required": [["cooking", 5], ["fabrication", 5]],
-    "book_learn": {
-      "rc_textbook_infseeds": {
-        "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "sheet metal seeds"
       }
     },
     "difficulty": 3,
@@ -109,7 +24,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_bpoison",
+    "result": "rc_seed_steellump",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -117,7 +32,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "lump of steel seeds"
       }
     },
     "difficulty": 3,
@@ -132,7 +47,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_wpoison",
+    "result": "rc_seed_steelchunk",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -140,7 +55,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "chunk of steel seeds"
       }
     },
     "difficulty": 3,
@@ -155,7 +70,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_honey",
+    "result": "rc_seed_scrapmetal",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -163,7 +78,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "scrap metal seeds"
       }
     },
     "difficulty": 3,
@@ -178,7 +93,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_gunpowder",
+    "result": "rc_seed_spike",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -186,7 +101,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "spike seeds"
       }
     },
     "difficulty": 3,
@@ -201,7 +116,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_pu244",
+    "result": "rc_seed_pipe",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -209,7 +124,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "pipe seeds"
       }
     },
     "difficulty": 3,
@@ -224,7 +139,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_bombFungicid",
+    "result": "rc_seed_steelplating",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -232,7 +147,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "steel plating seeds"
       }
     },
     "difficulty": 3,
@@ -247,7 +162,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_bombTear",
+    "result": "rc_seed_rebar",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -255,7 +170,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "rebar seeds"
       }
     },
     "difficulty": 3,
@@ -270,7 +185,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_bombInsecticid",
+    "result": "rc_seed_hinge",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -278,7 +193,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "door hinge seeds"
       }
     },
     "difficulty": 3,
@@ -293,7 +208,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_purifier",
+    "result": "rc_seed_wire",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -301,7 +216,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "wire seeds"
       }
     },
     "difficulty": 3,
@@ -316,7 +231,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_anesthetic",
+    "result": "rc_seed_nail",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -324,7 +239,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "nail seeds"
       }
     },
     "difficulty": 3,
@@ -339,7 +254,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_rubber",
+    "result": "rc_seed_hdframe",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -347,7 +262,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "heavy duty frame seeds"
       }
     },
     "difficulty": 3,
@@ -362,7 +277,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_meat",
+    "result": "rc_seed_frame",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -370,7 +285,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "steel frame seeds"
       }
     },
     "difficulty": 3,
@@ -385,7 +300,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_meatMut",
+    "result": "rc_seed_metaltank",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -393,7 +308,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "60L metal tank seeds"
       }
     },
     "difficulty": 3,
@@ -408,7 +323,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_cashcard",
+    "result": "rc_seed_copperwire",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -416,7 +331,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "copper wire seeds"
       }
     },
     "difficulty": 3,
@@ -431,7 +346,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_chicken",
+    "result": "rc_seed_copper",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -439,7 +354,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "copper seeds"
       }
     },
     "difficulty": 3,
@@ -454,7 +369,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_reptile",
+    "result": "rc_seed_lead",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -462,7 +377,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "lead seeds"
       }
     },
     "difficulty": 3,
@@ -477,7 +392,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_ant",
+    "result": "rc_seed_tin",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -485,7 +400,7 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "tin seeds"
       }
     },
     "difficulty": 3,
@@ -500,7 +415,7 @@
   },
   {
     "type": "recipe",
-    "result": "rc_seed_spider",
+    "result": "rc_seed_silver",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "fabrication",
@@ -508,7 +423,30 @@
     "book_learn": {
       "rc_textbook_infseeds": {
         "skill_level": 5,
-        "recipe_name": "Infused seeds"
+        "recipe_name": "silver seeds"
+      }
+    },
+    "difficulty": 3,
+    "time": "20 m",
+    "autolearn": true,
+    "activity_level": "NO_EXERCISE",
+    "components": [
+      [
+        [ "rc_seed_mat", 1]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rc_seed_gold",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SEEDS",
+    "skill_used": "fabrication",
+    "skills_required": [["cooking", 5], ["fabrication", 5]],
+    "book_learn": {
+      "rc_textbook_infseeds": {
+        "skill_level": 5,
+        "recipe_name": "gold seeds"
       }
     },
     "difficulty": 3,

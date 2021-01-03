@@ -250,7 +250,7 @@
     "charges": 1,
     "seed_data": {
       "plant_name": "cash card bush",
-      "fruit": "rc_spawn_moneycorpse",
+      "fruit": "rc_spawn_moneyfungus",
       "byproducts": [ "withered" ],
       "grow": "15 days"
     }
@@ -315,6 +315,134 @@
     "seed_data": {
       "plant_name": "spider egg bush",
       "fruit": "spider_egg",
+      "byproducts": [ "withered" ],
+      "grow": "15 days"
+    }
+  },
+  {  
+    "id": "rc_seed_glass",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "glass sheet seeds" },
+    "description": "Infused seeds prepared in such a way that they grow into a sheet of glass.",
+    "price": 1000,
+    "price_postapoc": 250,
+    "charges": 1,
+    "seed_data": {
+      "plant_name": "glass sheet bush",
+      "fruit": "glass_sheet",
+      "byproducts": [ "withered" ],
+      "grow": "15 days"
+    }  
+  },
+	{
+    "id": "rc_seed_glassTemp",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "tempered glass sheet seeds" },
+    "description": "Infused seeds prepared in such a way that they grow into a sheet of tempered glass.",
+    "price": 1000,
+    "price_postapoc": 250,
+    "charges": 1,
+    "seed_data": {
+      "plant_name": "tempered glass sheet bush",
+      "fruit": "tempered_glass_sheet",
+      "byproducts": [ "withered" ],
+      "grow": "15 days"
+    }
+  },
+	{
+    "id": "rc_seed_glassReinf",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "reinforced glass pane seeds" },
+    "description": "Infused seeds prepared in such a way that they grow into a pane of reinforced glass.",
+    "price": 1000,
+    "price_postapoc": 250,
+    "charges": 1,
+    "seed_data": {
+      "plant_name": "reinforced glass pane bush",
+      "fruit": "reinforced_glass_pane",
+      "byproducts": [ "withered" ],
+      "grow": "15 days"
+    }
+  },
+	{
+    "id": "rc_seed_plank",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "plank seeds" },
+    "description": "Infused seeds prepared in such a way that they grow into a bush with planks.",
+    "price": 1000,
+    "price_postapoc": 250,
+    "charges": 1,
+    "seed_data": {
+      "plant_name": "plank bush",
+      "fruit": "2x4",
+      "byproducts": [ "withered" ],
+      "grow": "15 days"
+    }
+  },
+	{
+    "id": "rc_seed_longstout",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "long stout branch seeds" },
+    "description": "Infused seeds prepared in such a way that they grow into a bunch of long branches sticking out of the ground.",
+    "price": 1000,
+    "price_postapoc": 250,
+    "charges": 1,
+    "seed_data": {
+      "plant_name": "long stout branch bush",
+      "fruit": "stick_long",
+      "byproducts": [ "withered" ],
+      "grow": "15 days"
+    }
+  },
+	{
+    "id": "rc_seed_woodpanel",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "wooden panel seeds" },
+    "description": "Infused seeds prepared in such a way that they grow into a wooden panel.",
+    "price": 1000,
+    "price_postapoc": 250,
+    "charges": 1,
+    "seed_data": {
+      "plant_name": "wooden panel bush",
+      "fruit": "wood_panel",
+      "byproducts": [ "withered" ],
+      "grow": "15 days"
+    }
+  },
+	{
+    "id": "rc_seed_log",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "log seeds" },
+    "description": "Infused seeds prepared in such a way that they grow into a log. No it's not a tree..",
+    "price": 1000,
+    "price_postapoc": 250,
+    "charges": 1,
+    "seed_data": {
+      "plant_name": "log bush",
+      "fruit": "log",
+      "byproducts": [ "withered" ],
+      "grow": "15 days"
+    }
+  },
+	{
+    "id": "rc_seed_woodbeam",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "wooden beam seeds" },
+    "description": "Infused seeds prepared in such a way that they grow into a heavy wooden beam. Not to be confused with a log..",
+    "price": 1000,
+    "price_postapoc": 250,
+    "charges": 1,
+    "seed_data": {
+      "plant_name": "wooden beam bush",
+      "fruit": "wood_beam",
       "byproducts": [ "withered" ],
       "grow": "15 days"
     }
