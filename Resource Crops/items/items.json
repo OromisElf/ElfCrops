@@ -38,10 +38,19 @@
     "count": 100
   },
   {
+    "id": "rc_oxyacetylene_solid",
+    "type": "AMMO",
+    "copy-from": "oxyacetylene",
+    "name": "oxyacetylene fruit",
+    "description": "A fruit filled with oxyacetylene.",
+    "phase": "solid",
+    "count": 100
+  },
+  {
 		"//": "old name do not use",
     "id": "rc_spawn_moneycorpse",
     "type": "TOOL",
-    "name": "summon moneyfungus",
+    "name": "summon money fungus",
     "description": "Some kind of puffball. Throw it on the ground to summon a fungus with a cash card.",
     "weight": "1 g",
     "volume": "10 ml",
@@ -59,7 +68,7 @@
   {
     "id": "rc_spawn_moneyfungus",
     "type": "TOOL",
-    "name": "summon moneyfungus",
+    "name": "summon money fungus",
     "description": "Some kind of puffball. Throw it on the ground to summon a fungus with a cash card.",
     "weight": "1 g",
     "volume": "10 ml",
@@ -73,35 +82,5 @@
       "moves": 50,
       "difficulty": 100
     }
-  },
-  {
-    "id": "rc_money_fungus",
-    "type": "MONSTER",
-    "name": { "str": "cash fungus"},
-    "description": "A fungaloid that supposedly has a cash card in its body.",
-    "default_faction": "fungus",
-    "species": [ "FUNGUS" ],
-    "diff": 1,
-    "volume": "500 ml",
-    "weight": "100 g",
-    "hp": 1,
-    "speed": 100,
-    "material": [ "veggy" ],
-    "symbol": "$",
-    "color": "light_gray",
-    "aggression": 0,
-    "morale": 100,
-    "melee_skill": 6,
-    "melee_dice": 2,
-    "melee_dice_sides": 4,
-    "melee_cut": 3,
-    "dodge": 0,
-    "armor_bash": 0,
-    "armor_cut": 0,
-    "armor_bullet": 0,
-    "harvest": "exempt",
-    "death_drops": "rc_drop_cashcard",
-    "death_function": [ "DISINTEGRATE" ],
-    "flags": [ "NOHEAD", "IMMOBILE", "NO_BREATHE", "PACIFIST" ]
   }
 ]

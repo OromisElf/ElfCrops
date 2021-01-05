@@ -1,13 +1,6 @@
 [
   {
     "type": "item_group",
-    "id": "rc_drop_cashcard",
-    "items": [
-      { "item": "cash_card", "charges-min": 1, "charges-max": 50000}
-    ]
-  },
-  {
-    "type": "item_group",
     "id": "farming_seeds",
     "items": [
       [ "rc_seed_mat", 1]
