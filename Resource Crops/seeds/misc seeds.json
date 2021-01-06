@@ -142,5 +142,21 @@
       "byproducts": [ "withered" ],
       "grow": "15 days"
     }
+  },
+  {
+    "id": "rc_seed_cbm",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "compact bionic modules seeds" },
+    "description": "Infused seeds prepared in such a way that they grow into a bush with compact bionic modules.",
+    "price": 1000,
+    "price_postapoc": 250,
+    "charges": 1,
+    "seed_data": {
+      "plant_name": "compact bionic modules bush",
+      "fruit": "rc_spawn_cbmfungus",
+      "byproducts": [ "withered" ],
+      "grow": "15 days"
+    }
   }
 ]

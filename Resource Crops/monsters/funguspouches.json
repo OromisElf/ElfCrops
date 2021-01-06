@@ -446,5 +446,13 @@
     "description": "A fungaloid that supposedly has oxyacetylene in its body.",
     "copy-from": "rc_money_fungus",
     "death_drops": "rc_drop_oxyacetylene"
+  },
+  {
+    "id": "rc_cbm_fungus",
+    "type": "MONSTER",
+    "name": { "str": "compact bionic modules fungus"},
+    "description": "A fungaloid that supposedly has compact bionic modules in its body.",
+    "copy-from": "rc_money_fungus",
+    "death_drops": "rc_drop_cbm2"
   }
 ]

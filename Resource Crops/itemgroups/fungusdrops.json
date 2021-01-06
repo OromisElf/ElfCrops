@@ -587,5 +587,35 @@
     "items": [
       { "item": "rc_oxyacetylene_solid"}
     ]
+  },
+  {
+    "//": "unused group but could definitely work better if bionics contains modded bionics also",
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "rc_drop_cbm",
+    "entries": [
+      { "group": "bionics", "prob":100},
+      { "item": "bio_cqb", "prob":2},
+      { "item": "bio_meteorologist", "prob":2},
+      { "item": "bio_power_storage", "prob":5},
+      { "item": "bio_power_storage_mkII", "prob":1}
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "rc_drop_cbm2",
+    "entries": [
+      { "group": "bionics", "prob":10},
+      { "group": "bionics_common", "prob":10},
+      { "group": "bionics_mil", "prob":10},
+      { "group": "bionics_op", "prob":10},
+      { "group": "bionics_op2_off", "prob":10},
+      { "group": "bionics_op2_def", "prob":10},
+      { "group": "bionics_op2_utl", "prob":10},
+      { "group": "bionics_tech", "prob":10},
+      { "group": "bionics_subs", "prob":5},
+      { "item": "bio_power_storage", "prob":5}
+    ]
   }
 ]
