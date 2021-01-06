@@ -454,5 +454,13 @@
     "description": "A fungaloid that supposedly has compact bionic modules in its body.",
     "copy-from": "rc_money_fungus",
     "death_drops": "rc_drop_cbm2"
-  }
+  },
+  {
+    "id": "rc_batterydispos_fungus",
+    "type": "MONSTER",
+    "name": { "str": "disposable battery fungus"},
+    "description": "A fungaloid that supposedly has disposable battery in its body.",
+    "copy-from": "rc_money_fungus",
+    "death_drops": "rc_drop_batterydispos"
+	}
 ]

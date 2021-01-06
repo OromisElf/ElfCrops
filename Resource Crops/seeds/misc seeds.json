@@ -158,5 +158,21 @@
       "byproducts": [ "withered" ],
       "grow": "15 days"
     }
+  },
+  {
+    "id": "rc_seed_batterydispos",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "disposable battery seeds" },
+    "description": "Infused seeds prepared in such a way that they grow into a bush with disposable battery.",
+    "price": 1000,
+    "price_postapoc": 250,
+    "charges": 1,
+    "seed_data": {
+      "plant_name": "disposable battery bush",
+      "fruit": "rc_spawn_batterydisposfungus",
+      "byproducts": [ "withered" ],
+      "grow": "15 days"
+    }
   }
 ]

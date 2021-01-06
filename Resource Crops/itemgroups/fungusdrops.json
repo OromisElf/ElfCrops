@@ -617,5 +617,15 @@
       { "group": "bionics_subs", "prob":5},
       { "item": "bio_power_storage", "prob":5}
     ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "rc_drop_batterydispos",
+    "items": [
+      { "item": "light_disposable_cell"},
+      { "item": "medium_disposable_cell"},
+      { "item": "heavy_disposable_cell"}
+    ]
   }
 ]
