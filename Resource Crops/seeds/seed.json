@@ -208,38 +208,6 @@
     }
   },
   {
-    "id": "rc_seed_meat",
-    "copy-from": "seed",
-    "type": "COMESTIBLE",
-    "name": { "str_sp": "meat seeds" },
-    "description": "Infused seeds prepared in such a way that they grow into a bush with juicy meat chunks hanging from it.",
-    "price": 1000,
-    "price_postapoc": 250,
-    "charges": 1,
-    "seed_data": {
-      "plant_name": "meat bush",
-      "fruit": "meat",
-      "byproducts": [ "withered" ],
-      "grow": "15 days"
-    }
-  },
-  {
-    "id": "rc_seed_meatMut",
-    "copy-from": "seed",
-    "type": "COMESTIBLE",
-    "name": { "str_sp": "mutant meat seeds" },
-    "description": "Infused seeds prepared in such a way that they grow into a bush with purple meat chunks hanging from it.",
-    "price": 1000,
-    "price_postapoc": 250,
-    "charges": 1,
-    "seed_data": {
-      "plant_name": "meat bush",
-      "fruit": "mutant_meat",
-      "byproducts": [ "withered" ],
-      "grow": "15 days"
-    }
-  },
-  {
     "id": "rc_seed_cashcard",
     "copy-from": "seed",
     "type": "COMESTIBLE",
