@@ -16,7 +16,7 @@
     "price_postapoc": 50,
     "material": [ "veggy" ],
     "volume": "10 ml",
-    "cooks_like": "dried_rice",
+    "cooks_like": "dry_rice",
     "flags": [ "INEDIBLE", "RAW" ],
     "charges": 1,
     "vitamins": [ [ "iron", 3 ] ],
