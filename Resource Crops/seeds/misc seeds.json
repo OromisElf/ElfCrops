@@ -160,6 +160,38 @@
     }
   },
   {
+    "id": "rc_seed_cbmPow",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "power storage seeds" },
+    "description": "Infused seeds prepared in such a way that they grow into a bush with power storage modules.",
+    "price": 1000,
+    "price_postapoc": 250,
+    "charges": 1,
+    "seed_data": {
+      "plant_name": "power storage bush",
+      "fruit": "bio_power_storage",
+      "byproducts": [ "withered" ],
+      "grow": "15 days"
+    }
+  },
+  {
+    "id": "rc_seed_cbmPowII",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "power storage mkII seeds" },
+    "description": "Infused seeds prepared in such a way that they grow into a bush with power storage mkII modules.",
+    "price": 1000,
+    "price_postapoc": 250,
+    "charges": 1,
+    "seed_data": {
+      "plant_name": "power storage mkII bush",
+      "fruit": "bio_power_storage_mkII",
+      "byproducts": [ "withered" ],
+      "grow": "15 days"
+    }
+  },
+  {
     "id": "rc_seed_batterydispos",
     "copy-from": "seed",
     "type": "COMESTIBLE",
