@@ -581,14 +581,6 @@
     ]
   },
   {
-    "type": "item_group",
-    "subtype": "distribution",
-    "id": "rc_drop_oxyacetylene",
-    "items": [
-      { "item": "rc_oxyacetylene_solid"}
-    ]
-  },
-  {
     "//": "unused group but could definitely work better if bionics contains modded bionics also",
     "type": "item_group",
     "subtype": "distribution",
@@ -616,6 +608,14 @@
       { "group": "bionics_tech", "prob":10},
       { "group": "bionics_subs", "prob":5},
       { "item": "bio_power_storage", "prob":5}
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "rc_drop_oxyacetylene",
+    "items": [
+      { "item": "rc_oxyacetylene_solid"}
     ]
   },
   {

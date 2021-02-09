@@ -858,7 +858,7 @@
     "charges": 1,
     "seed_data": {
       "plant_name": "oxyacetylene bush",
-      "fruit": "rc_spawn_oxyacetylenefungus",
+      "fruit": "rc_spawn_oxyacetylene_fungus",
       "byproducts": [ "withered" ],
       "grow": "15 days"
     }
