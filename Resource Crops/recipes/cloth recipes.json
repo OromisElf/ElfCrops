@@ -19,6 +19,9 @@
     "components": [
       [
         [ "rc_seed_mat", 1]
+      ],
+      [
+        [ "sheet", 10]
       ]
     ]
   },
@@ -42,6 +45,9 @@
     "components": [
       [
         [ "rc_seed_mat", 1]
+      ],
+      [
+        [ "rag", 10]
       ]
     ]
   },
@@ -65,6 +71,9 @@
     "components": [
       [
         [ "rc_seed_mat", 1]
+      ],
+      [
+        [ "thread", 500]
       ]
     ]
   },
@@ -88,6 +97,9 @@
     "components": [
       [
         [ "rc_seed_mat", 1]
+      ],
+      [
+        [ "string_36", 10]
       ]
     ]
   },
@@ -111,6 +123,9 @@
     "components": [
       [
         [ "rc_seed_mat", 1]
+      ],
+      [
+        [ "rope_30", 10]
       ]
     ]
   },
@@ -134,6 +149,9 @@
     "components": [
       [
         [ "rc_seed_mat", 1]
+      ],
+      [
+        [ "leather", 10]
       ]
     ]
   },
@@ -157,6 +175,9 @@
     "components": [
       [
         [ "rc_seed_mat", 1]
+      ],
+      [
+        [ "nomex", 10]
       ]
     ]
   },
@@ -180,6 +201,9 @@
     "components": [
       [
         [ "rc_seed_mat", 1]
+      ],
+      [
+        [ "sheet_kevlar_layered", 10]
       ]
     ]
   },
@@ -203,6 +227,35 @@
     "components": [
       [
         [ "rc_seed_mat", 1]
+      ],
+      [
+        [ "mattress", 10]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rc_seed_furpelt",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SEEDS",
+    "skill_used": "fabrication",
+    "skills_required": [["cooking", 5], ["fabrication", 5]],
+    "book_learn": {
+      "rc_textbook_infseeds": {
+        "skill_level": 5,
+        "recipe_name": "mattress seeds"
+      }
+    },
+    "difficulty": 3,
+    "time": "20 m",
+    "autolearn": true,
+    "activity_level": "NO_EXERCISE",
+    "components": [
+      [
+        [ "rc_seed_mat", 1]
+      ],
+      [
+        [ "fur", 10]
       ]
     ]
   }
