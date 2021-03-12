@@ -613,14 +613,6 @@
   {
     "type": "item_group",
     "subtype": "distribution",
-    "id": "rc_drop_oxyacetylene",
-    "items": [
-      { "item": "rc_oxyacetylene_solid"}
-    ]
-  },
-  {
-    "type": "item_group",
-    "subtype": "distribution",
     "id": "rc_drop_batterydispos",
     "items": [
       { "item": "light_disposable_cell"},

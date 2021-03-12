@@ -16,6 +16,22 @@
     }
   },
   {
+    "id": "rc_seed_metalsheetsmall",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "small metal sheet seeds" },
+    "description": "Infused seeds prepared in such a way that they grow into a bush with small metal sheets growing on ground level below it.",
+    "price": 1000,
+    "price_postapoc": 250,
+    "charges": 1,
+    "seed_data": {
+      "plant_name": "small metal sheet bush",
+      "fruit": "sheet_metal_small",
+      "byproducts": [ "withered" ],
+      "grow": "15 days"
+    }
+  },
+  {
     "id": "rc_seed_steellump",
     "copy-from": "seed",
     "type": "COMESTIBLE",
