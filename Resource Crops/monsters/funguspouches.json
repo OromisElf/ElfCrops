@@ -458,9 +458,17 @@
   {
     "id": "rc_lab_library_fungus",
     "type": "MONSTER",
-    "name": { "str": "labratoy book fungus"},
+    "name": { "str": "labratory book fungus"},
     "description": "A fungaloid that supposedly has labratoy books in its body.",
     "copy-from": "rc_money_fungus",
     "death_drops": "lab_bookshelves"
+	},
+  {
+    "id": "rc_exotic_books_fungus",
+    "type": "MONSTER",
+    "name": { "str": "exotic book fungus"},
+    "description": "A fungaloid that supposedly has exotic books in its body.",
+    "copy-from": "rc_money_fungus",
+    "death_drops": "exotic_books"
 	}
 ]
